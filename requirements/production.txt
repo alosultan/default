@@ -1,0 +1,9 @@
+-r base.txt
+
+redis==3.5.3  # https://github.com/andymccurdy/redis-py
+gunicorn==20.0.4  # https://github.com/benoitc/gunicorn
+psycopg2==2.8.6  # https://github.com/psycopg/psycopg2
+
+# Django
+# ------------------------------------------------------------------------------
+django-redis==4.12.1  # https://github.com/jazzband/django-redis

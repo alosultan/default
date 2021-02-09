@@ -1,0 +1,6 @@
+Pillow==8.1.0  # https://github.com/python-pillow/Pillow
+
+# Django
+# ------------------------------------------------------------------------------
+django=={{ django_version }}
+django-environ==0.4.5  # https://github.com/joke2k/django-environ
