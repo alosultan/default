@@ -35,6 +35,6 @@ CACHES = {
 # ADMIN
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#admins
-ADMINS = [('Sultan', 'alosultan00200@gmail.com')]
+# ADMINS = []
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers
-MANAGERS = ADMINS
+# MANAGERS = []

@@ -7,7 +7,7 @@ import environ
 
 env = environ.Env()
 
-ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
+ROOT_DIR = Path(__file__).resolve(strict=True).parents[2]
 BASE_DIR = ROOT_DIR / "{{ project_name }}"
 
 # GENERAL
@@ -109,9 +109,9 @@ MIDDLEWARE = [
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-user-model
 AUTH_USER_MODEL = "accounts.User"
 # https://docs.djangoproject.com/en/dev/ref/settings/#login-redirect-url
-LOGIN_REDIRECT_URL = "users:redirect"
+LOGIN_REDIRECT_URL = "accounts:redirect"
 # https://docs.djangoproject.com/en/dev/ref/settings/#login-url
-LOGIN_URL = "account_login"
+LOGIN_URL = "accounts:login"
 
 # PASSWORDS
 # ------------------------------------------------------------------------------
